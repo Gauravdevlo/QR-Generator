@@ -98,13 +98,13 @@ export default function QRGeneratorPage() {
         className="!fixed inset-0 w-full h-full"
         colors={["#000000", "#111111", "#222222", "#ffffff"]}
         speed={0.6}
-        backgroundColor="#000000"
         style={{
           position: "fixed",
           inset: 0,
           width: "100%",
           height: "100%",
           zIndex: 0,
+          backgroundColor: "#000000",
         }}
       />
 
